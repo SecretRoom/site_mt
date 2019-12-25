@@ -1,0 +1,8 @@
+.body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 18vh 78vh;
+      grid-template-rows: 18vh 78vh;
+  background-color: cadetblue;
+}
+/*# sourceMappingURL=index.css.map */
