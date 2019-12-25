@@ -1,9 +1,32 @@
 .app
   display: grid
-  grid-template-rows: 90% 10%
+  grid-template-rows: 78vh 18vh
 .body
   display: grid
   grid-template-rows: 10vh 88vh
   background-image: url('../../image/back.jpg')
   cursor: grab !important
   overflow: hidden !important
+.body-koly
+  display: grid
+  grid-template-rows: 10vh 88vh
+  background: linear-gradient(90deg,#ff8a46,#ffc579)
+  cursor: grab !important
+  overflow: hidden !important
+
+.basement
+  display: grid
+  grid-template-columns: 1fr 1fr
+  .button
+    background-color: #ffffff
+    border: 0
+    &:hover
+      background-color: #818181
+      transition: 1s
+    &:not(:hover)
+      background-color: #ffffff
+      transition: 1s
+  .button-click
+    border: 0
+    background-color: #535151
+    color: #ffffff

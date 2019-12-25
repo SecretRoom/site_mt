@@ -14,7 +14,7 @@ const Header = ({
             className={buttonActive[0]?'button-link-click':'button-link'} 
             onClick={()=>handleClick(0)}
           >
-            Morth
+            <h3>Morth</h3>
           </button>
         </Link>
         <Link to='/test' className='link'>
@@ -22,7 +22,7 @@ const Header = ({
             className={buttonActive[1]?'button-link-click':'button-link'} 
             onClick={()=>handleClick(1)}
           >
-            Test
+            <h3>Test</h3>
           </button>
         </Link>
         <Link to='/galery' className='link'>
@@ -30,7 +30,7 @@ const Header = ({
             className={buttonActive[2]?'button-link-click':'button-link'} 
             onClick={()=>handleClick(2)}
           >
-            Galery
+            <h3>Galery</h3>
           </button>
         </Link>
         <Link to='/clock' className='link'>
@@ -38,7 +38,7 @@ const Header = ({
             className={buttonActive[3]?'button-link-click':'button-link'} 
             onClick={()=>handleClick(3)}
           >
-            Clock
+            <h3>Clock</h3>
           </button>
         </Link>
       </div>

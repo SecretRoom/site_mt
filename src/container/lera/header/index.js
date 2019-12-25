@@ -7,7 +7,7 @@ const HeaderContainer = () => {
   useEffect(() => {
     let active = []
     for (let i = 0; i < 4; i++) {
-      if(i===3){
+      if(i===1){
         active.push(true)      
       } else {
         active.push(false)

@@ -1,5 +1,5 @@
 import React from 'react'
-import clock from '../../flash/clock.swf'
+import clock from '../../../flash/clock.swf'
 
 const Clock = () => (
   <div className="clock">

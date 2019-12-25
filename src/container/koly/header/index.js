@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import Header from '../../../component/lera/header'
+import Head from '../../../component/koly/header'
 
-const HeaderContainer = () => {
+const HeadContainer = () => {
   const [buttonActive, setButtonActive] = useState() 
   
   useEffect(() => {
     let active = []
     for (let i = 0; i < 4; i++) {
-      if(i===3){
+      if(i===1){
         active.push(true)      
       } else {
         active.push(false)
@@ -32,7 +32,7 @@ const HeaderContainer = () => {
 
   return(
     <>
-      <Header
+      <Head
         handleClick={handleClick}
         buttonActive={buttonActive}
       />
@@ -40,4 +40,4 @@ const HeaderContainer = () => {
   )
 }
 
-export default HeaderContainer;
+export default HeadContainer;

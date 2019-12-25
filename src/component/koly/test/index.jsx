@@ -1,5 +1,5 @@
 import React from 'react'
-import test from '../../flash/test.swf'
+import test from '../../../flash/comp.swf'
 
 const Test = () => (
   <div className="test">

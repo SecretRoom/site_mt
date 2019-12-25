@@ -19,19 +19,19 @@ const App = () => {
           <Header />
           <Main />
         </div>
-        ):(
-          <div className="body"> {/* koly */}
-            <Head />
-            <MainK />
-          </div>
-        )
+      ):(
+        <div className="body-koly"> {/* koly */}
+          <Head />
+          <MainK />
+        </div>
+      )
       }
       <div className="basement">
-        <button className="button-left" onClick={()=>handleClick(true)}>
-          lera
+        <button className={!visiable?"button":"button-click"} onClick={()=>handleClick(true)}>
+          <h2>Lera</h2>
         </button>
-        <button className="button-right" onClick={()=>handleClick(false)}>
-          koly
+        <button className={!visiable?"button-click":"button"} onClick={()=>handleClick(false)}>
+          <h2>Koly</h2>
         </button>
 
       </div>

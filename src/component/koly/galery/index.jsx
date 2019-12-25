@@ -1,5 +1,5 @@
 import React from 'react'
-import galery from '../../flash/galery.swf'
+import galery from '../../../flash/galery.swf'
 
 const Galery = () => (
   <div className="galery">

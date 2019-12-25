@@ -1,5 +1,5 @@
 import React from 'react'
-import morth from '../../flash/morth.swf'
+import morth from '../../../flash/apple.swf'
 
 const Morth = () => {
 
