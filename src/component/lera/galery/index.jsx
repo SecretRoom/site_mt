@@ -1,5 +1,5 @@
 import React from 'react'
-import galery from '../../flash/galery.swf'
+import galery from '../../../flash/galery.swf'
 
 const Galery = () => (
   <div className="galery">
@@ -7,7 +7,7 @@ const Galery = () => (
         <param name="movie" value={galery} />
         <param name="quality" value="high" />
         <param name="wmode" value="transparent" />
-        <embed src={galery} className="content__flash" width="500" height="500" quality="high" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        <embed src={galery} className="content__flash" width={window.innerWidth} height={window.innerHeight/1.5} quality="high" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
       </object>
   </div>
 )

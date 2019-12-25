@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Header from '../../component/header'
+import Header from '../../../component/lera/header'
 
 const HeaderContainer = () => {
   const [buttonActive, setButtonActive] = useState() 

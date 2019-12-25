@@ -1,5 +1,5 @@
 import React from 'react'
-import morth from '../../flash/morth.swf'
+import morth from '../../../flash/morth.swf'
 
 const Morth = () => {
 
@@ -9,7 +9,7 @@ const Morth = () => {
         <param name="movie" value={morth} />
         <param name="quality" value="high" />
         <param name="wmode" value="transparent" />
-        <embed src={morth} className="content__flash" width="500" height="500" quality="high" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        <embed src={morth} className="content__flash" width={window.innerWidth} height={window.innerHeight/1.5} quality="high" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
       </object>
     </div>
   )
